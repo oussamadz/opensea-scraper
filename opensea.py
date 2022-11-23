@@ -68,7 +68,6 @@ for link in links:
     br.find_element_by_id('Header react-aria-3').click()
     props.append(propProcess(
         br.find_element_by_class_name('item--properties')))
-    #br.find_element_by_id('Header react-aria-21').click()
     abouts.append(br.find_element_by_class_name('item--about-container').text)
     print(br.find_element_by_class_name('item--about-container').text)
     br.find_element_by_id('Header react-aria-11').click()
